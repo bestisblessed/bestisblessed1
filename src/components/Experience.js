@@ -7,16 +7,14 @@ const experienceData = [
     title: 'DevOps Engineer',
     company: 'Booz Allen Hamilton',
     companyUrl: 'https://www.boozallen.com/',
-    description: 'Implementing DevOps practices and managing cloud infrastructure to support government and commercial clients. Working with containerization, CI/CD pipelines, and infrastructure as code to streamline application deployment and management.',
-    skills: ['AWS', 'Kubernetes', 'Docker', 'CI/CD', 'Terraform']
+    description: 'Implementing DevOps practices and managing cloud infrastructure to support government and commercial clients. Working with containerization, CI/CD pipelines, and infrastructure as code to streamline application deployment and management.'
   },
   {
     date: 'Aug 2021 — Mar 2023',
     title: 'DevOps Engineer',
     company: 'Forterra (formerly RRAI)',
     companyUrl: 'https://www.forterra.com/',
-    description: 'Architected and implemented cloud-based solutions using modern DevOps practices. Automated infrastructure deployment and application delivery pipelines, resulting in improved reliability and faster release cycles.',
-    skills: ['Cloud Infrastructure', 'GitOps', 'Containerization', 'Automation', 'Monitoring']
+    description: 'Architected and implemented cloud-based solutions using modern DevOps practices. Automated infrastructure deployment and application delivery pipelines, resulting in improved reliability and faster release cycles.'
   }
 ]
 
@@ -44,11 +42,6 @@ const Experience = () => {
                 </span>
               </div>
               <p className="experience-description">{job.description}</p>
-              <div className="experience-skills">
-                {job.skills.map((skill, skillIndex) => (
-                  <span key={skillIndex} className="experience-skill">{skill}</span>
-                ))}
-              </div>
             </div>
           </div>
         </a>

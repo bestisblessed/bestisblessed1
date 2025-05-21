@@ -89,21 +89,31 @@
   line-height: 1.7;
   max-width: 100%;
   margin-right: 20px;
+  margin-bottom: 5px;
 }
 
 .project-skills {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
-  gap: 10px;
+  margin-top: 25px;
+  gap: 12px;
 }
 
 .project-skill {
-  background-color: rgba(100, 255, 218, 0.1);
+  background-color: rgba(100, 255, 218, 0.07);
   color: #64ffda;
-  padding: 5px 10px;
-  border-radius: 3px;
-  font-size: 12px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(100, 255, 218, 0.2);
+  transition: all 0.2s ease;
+}
+
+.project-skill:hover {
+  background-color: rgba(100, 255, 218, 0.15);
+  transform: translateY(-2px);
+  border-color: rgba(100, 255, 218, 0.4);
 }
 
 .project-arrow {
