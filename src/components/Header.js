@@ -95,6 +95,12 @@ const styles = {
     cursor: 'pointer',
     transition: 'all 0.2s ease',
     textDecoration: 'none'
+  },
+  socialContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    marginTop: 'auto',
+    paddingBottom: '20px'
   }
 }
 
@@ -103,15 +109,18 @@ const Header = () => {
   
   return (
     <header style={styles.header}>
-      <ThemeToggle />
       <div style={styles.headerTop}>
         <img src={profileImage} alt="Tyler Durette" style={styles.profileImage} />
         <h1 style={styles.name}>Tyler Durette</h1>
       </div>
-      <h2 style={styles.title}><span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;<span style={{fontSize: '17px', fontWeight: 'normal'}}>AI / DevOps / Software </span></h2>
+      <h2 style={styles.title}>
+        <span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;
+        <span style={{fontSize: '17px', fontWeight: 'normal'}}>AI / DevOps / Software </span>
+      </h2>
       <p style={styles.subtitle}>
         I do cool things with AI and sports... 
-        <span style={{color: '#90ee90', fontStyle: 'italic'}}> Love </span>python, data analysis, machine learning, automation, finance & trading algorithms, MacOS, Linux..
+        <span style={{color: '#90ee90', fontStyle: 'italic'}}> Love </span>
+        python, data analysis, machine learning, automation, finance & trading algorithms, MacOS, Linux..
         <span style={{color: '#ffb3b3', fontStyle: 'italic'}}> Hate</span> Windows
       </p>
 
@@ -123,7 +132,7 @@ const Header = () => {
             href={link.url} 
             style={{
               ...styles.navItem,
-              color: hoveredItem === index ? '#e6f1ff' : '#a8b2d1'
+              color: hoveredItem === index ? 'var(--text-color)' : 'var(--nav-text)'
             }}
             className="interactive-element"
             onMouseEnter={() => setHoveredItem(index)}
@@ -139,34 +148,22 @@ const Header = () => {
           </a>
         ))}
       </nav>
+
       <div style={{ marginTop: '24px' }}>
         <a
           href="/TylerDuretteResumeFinal.pdf"
-            target="_blank" 
-            rel="noopener noreferrer"
-            style={styles.resumeButton}          
-            className="resume-arrow-right interactive-element"
+          target="_blank" 
+          rel="noopener noreferrer"
+          style={styles.resumeButton}          
+          className="resume-arrow-right interactive-element"
         >
           RESUME <FaArrowRight />
         </a>
       </div>
-      {/*<a 
-        href="/TylerDuretteResumeFinal.pdf" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        style={styles.resumeButton}
-        className="interactive-element"
-        onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = 'rgba(100, 255, 218, 0.2)';
-          e.currentTarget.style.transform = 'translateY(-3px)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = 'rgba(100, 255, 218, 0.1)';
-          e.currentTarget.style.transform = 'translateY(0)';
-        }}
-      >
-        RESUME
-      </a>*/}
+
+      <div style={styles.socialContainer}>
+        <ThemeToggle />
+      </div>
     </header>
   )
 }

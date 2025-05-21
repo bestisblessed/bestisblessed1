@@ -22,24 +22,28 @@ const ThemeToggle = () => {
     <button 
       onClick={toggle} 
       style={{
-        background: 'transparent',
+        position: 'fixed',
+        top: '20px',
+        right: '20px',
+        zIndex: 1000,
+        background: 'var(--bg-color)',
         border: '1px solid var(--link-color)',
         borderRadius: '50%',
-        width: '40px',
-        height: '40px',
+        padding: '10px',
+        cursor: 'pointer',
+        color: 'var(--link-color)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        cursor: 'pointer',
-        color: 'var(--link-color)',
-        transition: 'all 0.2s ease',
-        position: 'relative',
-        overflow: 'hidden'
+        transition: 'transform 0.2s ease, color 0.2s ease, background-color 0.2s ease',
+        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)'
       }}
-      className="theme-toggle"
+      className="interactive-element"
       aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+      onMouseEnter={(e) => e.target.style.transform = 'scale(1.1)'}
+      onMouseLeave={(e) => e.target.style.transform = 'scale(1)'}
     >
-      {theme === 'dark' ? <FaSun size={16} /> : <FaMoon size={16} />}
+      {theme === 'dark' ? <FaSun size={18} /> : <FaMoon size={18} />}
     </button>
   );
 };
