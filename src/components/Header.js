@@ -12,6 +12,19 @@ const styles = {
     marginBottom: '40px',
     maxWidth: '90%'
   },
+  headerTop: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '30px',
+    marginBottom: '10px'
+  },
+  profileImage: {
+    width: '100px',
+    height: '100px',
+    borderRadius: '50%',
+    objectFit: 'cover',
+    border: '2px solid #64ffda'
+  },
   name: {
     fontSize: '56px',
     margin: '0 0 10px 0',
@@ -69,7 +82,10 @@ const Header = () => {
   
   return (
     <header style={styles.header}>
-      <h1 style={styles.name}>Tyler Durette</h1>
+      <div style={styles.headerTop}>
+        <img src="/image.png" alt="Tyler Durette" style={styles.profileImage} />
+        <h1 style={styles.name}>Tyler Durette</h1>
+      </div>
       <h2 style={styles.title}><span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;<span style={{fontSize: '15px', fontWeight: 'normal'}}>DevOps / Software / AI</span></h2>
       <p style={styles.subtitle}>
         I do cool things with AI in sports and love data analysis, machine learning, automation, finance, and trading bots.
