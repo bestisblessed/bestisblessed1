@@ -75,8 +75,8 @@ const About = () => {
       {/*<h2 style={styles.sectionHeading}>ABOUT</h2>*/}
       <p style={styles.paragraph}>
         I'm a software engineer with 5+ years of professional experience.
-        My passions include developing and experimenting with various AI autmoations, workflows, processes, libraries, and architectures  
-        as well as scripting out data collection pipelines and building analysis tools and dashboards across a variety of projects.
+        My passions include developing and experimenting with various AI automations, workflows, tools, processes, libraries, and architectures;  
+        as well as scripting out data collection pipelines to use in building analysis tools and dashboards across a variety of projects.
         {/*Particularly in sports/sports handicapping is what I most enjoy.*/}
       </p>
       <p style={styles.paragraph}>
