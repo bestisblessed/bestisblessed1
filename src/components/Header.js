@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import profileImage from '../images/image.png'
 
 const navLinks = [
   { name: 'ABOUT', url: '#about' },
@@ -83,7 +84,7 @@ const Header = () => {
   return (
     <header style={styles.header}>
       <div style={styles.headerTop}>
-        <img src="/image.png" alt="Tyler Durette" style={styles.profileImage} />
+        <img src={profileImage} alt="Tyler Durette" style={styles.profileImage} />
         <h1 style={styles.name}>Tyler Durette</h1>
       </div>
       <h2 style={styles.title}><span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;<span style={{fontSize: '15px', fontWeight: 'normal'}}>DevOps / Software / AI</span></h2>

@@ -77,4 +77,13 @@
 
 .project-arrow {
   font-size: 16px;
+}
+
+/* Project image styling */
+.project-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
 } 
