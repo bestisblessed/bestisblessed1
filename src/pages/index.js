@@ -2,7 +2,6 @@
 import * as React from 'react'
 import { useEffect, useState } from 'react'
 import './global.css'
-// import { motion } from 'framer-motion'
 
 import Header from '../components/Header'
 import About from '../components/About'
@@ -38,43 +37,6 @@ const IndexPage = () => {
       ></div>
       <div className="left-column">
         <Header />
-        {/* 
-        <motion.a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: '#64ffda',
-            textDecoration: 'none',
-            fontSize: '18px',
-            fontFamily: 'monospace',
-            textTransform: 'uppercase',
-            letterSpacing: '2px',
-            padding: '4px 16px',
-            marginTop: '30px',
-            marginLeft: '40px',
-            display: 'inline-flex',
-            alignItems: 'center',
-            width: 'fit-content',
-            borderRadius: '4px',
-            transition: 'border 0.2s ease'
-          }}
-          className="interactive-element"
-          animate={{
-            textShadow: [
-              '2px 0 #ff0000, -2px 0 #00ff00',
-              '-2px 0 #ff0000, 2px 0 #00ff00',
-              '2px 0 #ff0000, -2px 0 #00ff00'
-            ]
-          }}
-          whileHover={{
-            border: '1px solid #64ffda',
-          }}
-          transition={{ duration: 0.4, repeat: Infinity }}
-        >
-          &lt;RESUME.TSX /&gt;
-        </motion.a>
-        */}
         <SocialLinks />
       </div>
       <div className="right-column">

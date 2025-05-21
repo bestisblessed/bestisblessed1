@@ -33,7 +33,7 @@ const styles = {
     fontWeight: '600'
   },
   title: {
-    fontSize: '22px',
+    fontSize: '28px',
     fontWeight: 'normal',
     margin: '30px 0 30px 0',
     color: '#e6f1ff',
@@ -42,7 +42,8 @@ const styles = {
   subtitle: {
     fontSize: '18px',
     lineHeight: '1.5',
-    maxWidth: '300px',
+    //maxWidth: '300px',
+    width: '70%',
     color: '#8892b0',
     marginBottom: '60px'
   },
@@ -75,6 +76,23 @@ const styles = {
   },
   navLineHover: {
     width: '70px'
+  },
+  resumeButton: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(100, 255, 218, 0.1)',
+    color: '#64ffda',
+    border: '1px solid #64ffda',
+    borderRadius: '4px',
+    padding: '10px 20px',
+    fontSize: '14px',
+    fontWeight: '500',
+    letterSpacing: '1px',
+    marginTop: '35px',
+    cursor: 'pointer',
+    transition: 'all 0.2s ease',
+    textDecoration: 'none'
   }
 }
 
@@ -87,9 +105,9 @@ const Header = () => {
         <img src={profileImage} alt="Tyler Durette" style={styles.profileImage} />
         <h1 style={styles.name}>Tyler Durette</h1>
       </div>
-      <h2 style={styles.title}><span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;<span style={{fontSize: '15px', fontWeight: 'normal'}}>DevOps / Software / AI</span></h2>
+      <h2 style={styles.title}><span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;<span style={{fontSize: '17px', fontWeight: 'normal'}}>AI / DevOps / Software </span></h2>
       <p style={styles.subtitle}>
-        I do cool things with AI in sports and love data analysis, machine learning, automation, finance, and trading bots.
+        I do cool things with AI in sports and love data analysis, machine learning, automation, and trading algorithms.
       </p>
 
       {/* Navigation */}
@@ -116,6 +134,23 @@ const Header = () => {
           </a>
         ))}
       </nav>
+      <a 
+        href="/TylerDuretteResumeFinal.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        style={styles.resumeButton}
+        className="interactive-element"
+        onMouseEnter={(e) => {
+          e.currentTarget.style.backgroundColor = 'rgba(100, 255, 218, 0.2)';
+          e.currentTarget.style.transform = 'translateY(-3px)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.backgroundColor = 'rgba(100, 255, 218, 0.1)';
+          e.currentTarget.style.transform = 'translateY(0)';
+        }}
+      >
+        RESUME
+      </a>
     </header>
   )
 }

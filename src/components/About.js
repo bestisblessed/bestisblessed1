@@ -33,24 +33,43 @@ const styles = {
     objectFit: 'cover',
     border: '2px solid #64ffda'
   },
-  glitchResumeLink: {
+  resumeContainer: {
+    marginTop: '40px',
+    padding: '20px',
+    border: '1px solid rgba(100, 255, 218, 0.3)',
+    borderRadius: '5px',
+    maxWidth: '700px',
+    backgroundColor: 'rgba(100, 255, 218, 0.05)',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
+  resumeInfo: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '15px'
+  },
+  resumeIcon: {
     color: '#64ffda',
-    textDecoration: 'none',
-    fontSize: '18px',
-    fontFamily: 'monospace',
-    textTransform: 'uppercase',
-    letterSpacing: '2px',
-    padding: '4px 16px',
-    marginTop: '30px',
+    fontSize: '24px'
+  },
+  resumeText: {
+    color: '#ccd6f6'
+  },
+  resumeLink: {
     display: 'inline-flex',
     alignItems: 'center',
-    width: 'fit-content',
-    borderRadius: '4px',
-    transition: 'border 0.2s ease'
+    gap: '8px',
+    color: '#64ffda',
+    textDecoration: 'none',
+    fontSize: '16px',
+    transition: 'all 0.2s ease'
   }
 }
 
 const About = () => {
+  // removed unused state hook
+
   return (
     <section id="about" style={styles.section}>
       {/*<h2 style={styles.sectionHeading}>ABOUT</h2>*/}
@@ -80,9 +99,8 @@ const About = () => {
         and <span style={styles.highlight}>blockchain technologies</span>. I'm passionate about creating tools that
         transform complex data into actionable insights and automated systems.
       </p>*/}
-
     </section>
   )
 }
 
-export default About 
+export default About

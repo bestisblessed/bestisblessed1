@@ -39,8 +39,8 @@ const socialLinks = [
   { name: 'GitHub', url: 'https://github.com/bestisblessed', icon: 'github' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/tyler-durette-43b54317a/', icon: 'linkedin' },
   { name: 'Email', url: 'mailto:tyler.durette@gmail.com', icon: 'email' },
-  { name: 'Instagram', url: 'https://www.instagram.com/tylerdurette1/#', icon: 'instagram' },
   { name: 'YouTube', url: 'https://www.youtube.com/@drty6818', icon: 'youtube' },
+  { name: 'Instagram', url: 'https://www.instagram.com/tylerdurette1/#', icon: 'instagram' },
 ]
 
 const SocialIcon = ({ name }) => {
