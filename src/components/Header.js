@@ -157,7 +157,7 @@ const Header = () => {
           style={styles.resumeButton}          
           className="resume-arrow-right interactive-element"
         >
-          RESUME <FaArrowRight />
+          RESUME &nbsp;<FaArrowRight />
         </a>
       </div>
 
