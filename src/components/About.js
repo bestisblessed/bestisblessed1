@@ -77,7 +77,7 @@ const About = () => {
         I'm a software engineer with 5+ years of professional experience.
         My passions include developing and experimenting with various AI autmoations, workflows, processes, libraries, and architectures  
         as well as scripting out data collection pipelines and building analysis tools and dashboards across a variety of projects.
-        Particularly in sports/sports handicapping is what I most enjoy.
+        {/*Particularly in sports/sports handicapping is what I most enjoy.*/}
       </p>
       <p style={styles.paragraph}>
         My current portfolio includes multiple web applications for NFL, MLB, MMA analytics and predictive models, 

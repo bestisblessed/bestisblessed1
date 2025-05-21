@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import { FaArrowRight } from 'react-icons/fa'
 import profileImage from '../images/image.png'
+import ThemeToggle from './ThemeToggle'
 
 const navLinks = [
   { name: 'ABOUT', url: '#about' },
@@ -11,7 +13,8 @@ const navLinks = [
 const styles = {
   header: {
     marginBottom: '40px',
-    maxWidth: '90%'
+    maxWidth: '90%',
+    position: 'relative'
   },
   headerTop: {
     display: 'flex',
@@ -24,27 +27,26 @@ const styles = {
     height: '100px',
     borderRadius: '50%',
     objectFit: 'cover',
-    border: '2px solid #64ffda'
+    border: '2px solid var(--link-color)'
   },
   name: {
     fontSize: '56px',
     margin: '0 0 10px 0',
-    color: '#e6f1ff',
+    color: 'var(--text-color)',
     fontWeight: '600'
   },
   title: {
     fontSize: '28px',
     fontWeight: 'normal',
     margin: '30px 0 30px 0',
-    color: '#e6f1ff',
+    color: 'var(--text-color)',
     fontStyle: 'italic'
   },
   subtitle: {
     fontSize: '18px',
     lineHeight: '1.5',
-    //maxWidth: '300px',
     width: '70%',
-    color: '#8892b0',
+    color: 'var(--text-secondary)',
     marginBottom: '60px'
   },
   nav: {
@@ -53,7 +55,7 @@ const styles = {
     gap: '28px'
   },
   navItem: {
-    color: '#a8b2d1',
+    color: 'var(--nav-text)',
     textDecoration: 'none',
     fontSize: '15px',
     letterSpacing: '1.2px',
@@ -70,7 +72,7 @@ const styles = {
     position: 'relative',
     width: '24px',
     height: '2px',
-    backgroundColor: '#64ffda',
+    backgroundColor: 'var(--link-color)',
     marginRight: '12px',
     transition: 'width 0.3s ease'
   },
@@ -81,9 +83,9 @@ const styles = {
     display: 'inline-flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'rgba(100, 255, 218, 0.1)',
-    color: '#64ffda',
-    border: '1px solid #64ffda',
+    backgroundColor: 'var(--hover-bg)',
+    color: 'var(--link-color)',
+    border: '1px solid var(--link-color)',
     borderRadius: '4px',
     padding: '10px 20px',
     fontSize: '14px',
@@ -101,13 +103,16 @@ const Header = () => {
   
   return (
     <header style={styles.header}>
+      <ThemeToggle />
       <div style={styles.headerTop}>
         <img src={profileImage} alt="Tyler Durette" style={styles.profileImage} />
         <h1 style={styles.name}>Tyler Durette</h1>
       </div>
       <h2 style={styles.title}><span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;<span style={{fontSize: '17px', fontWeight: 'normal'}}>AI / DevOps / Software </span></h2>
       <p style={styles.subtitle}>
-        I do cool things with AI in sports and love data analysis, machine learning, automation, and trading algorithms.
+        I do cool things with AI and sports... 
+        <span style={{color: '#90ee90', fontStyle: 'italic'}}> Love </span>python, data analysis, machine learning, automation, finance & trading algorithms, MacOS, Linux..
+        <span style={{color: '#ffb3b3', fontStyle: 'italic'}}> Hate</span> Windows
       </p>
 
       {/* Navigation */}
@@ -134,7 +139,18 @@ const Header = () => {
           </a>
         ))}
       </nav>
-      <a 
+      <div style={{ marginTop: '24px' }}>
+        <a
+          href="/TylerDuretteResumeFinal.pdf"
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={styles.resumeButton}          
+            className="resume-arrow-right interactive-element"
+        >
+          RESUME <FaArrowRight />
+        </a>
+      </div>
+      {/*<a 
         href="/TylerDuretteResumeFinal.pdf" 
         target="_blank" 
         rel="noopener noreferrer"
@@ -150,7 +166,7 @@ const Header = () => {
         }}
       >
         RESUME
-      </a>
+      </a>*/}
     </header>
   )
 }
