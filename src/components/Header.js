@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { FaArrowRight } from 'react-icons/fa'
 import profileImage from '../images/image.png'
 
 const navLinks = [
@@ -107,7 +108,9 @@ const Header = () => {
       </div>
       <h2 style={styles.title}><span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;<span style={{fontSize: '17px', fontWeight: 'normal'}}>AI / DevOps / Software </span></h2>
       <p style={styles.subtitle}>
-        I do cool things with AI in sports and love data analysis, machine learning, automation, and trading algorithms.
+        I do cool things with AI and sports... 
+        <span style={{color: '#90ee90', fontStyle: 'italic'}}> Love </span>python, data analysis, machine learning, automation, finance & trading algorithms, MacOS, Linux..
+        <span style={{color: '#ffb3b3', fontStyle: 'italic'}}> Hate</span> Windows
       </p>
 
       {/* Navigation */}
@@ -134,23 +137,17 @@ const Header = () => {
           </a>
         ))}
       </nav>
-      <a 
-        href="/TylerDuretteResumeFinal.pdf" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        style={styles.resumeButton}
-        className="interactive-element"
-        onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = 'rgba(100, 255, 218, 0.2)';
-          e.currentTarget.style.transform = 'translateY(-3px)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = 'rgba(100, 255, 218, 0.1)';
-          e.currentTarget.style.transform = 'translateY(0)';
-        }}
-      >
-        RESUME
-      </a>
+      <div style={{ marginTop: '24px' }}>
+        <a
+          href="/TylerDuretteResumeFinal.pdf"
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={styles.resumeButton}          
+            className="resume-arrow-right interactive-element"
+        >
+          RESUME <FaArrowRight />
+        </a>
+      </div>
     </header>
   )
 }
