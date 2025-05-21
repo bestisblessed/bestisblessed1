@@ -75,13 +75,15 @@ const About = () => {
       {/*<h2 style={styles.sectionHeading}>ABOUT</h2>*/}
       <p style={styles.paragraph}>
         I'm a software engineer with 5+ years of professional experience.
-        My passions include developing and experimenting with various AI workflows, processes, and architectures  
-        and building data analysis tools across various domains, particularly in sports and finance.
+        My passions include developing and experimenting with various AI autmoations, workflows, processes, libraries, and architectures  
+        as well as scripting out data collection pipelines and building analysis tools and dashboards across a variety of projects.
+        Particularly in sports/sports handicapping is what I most enjoy.
       </p>
       <p style={styles.paragraph}>
-        My current portfolio includes multiple web applications for NFL, MLB, MMA analytics and predictive modeling systems, 
-        AI agents and automation templates, and numerous data collection, processing, monitoring, and analysis systems. 
-        I also dabble in trading bots and algorithms.
+        My current portfolio includes multiple web applications for NFL, MLB, MMA analytics and predictive models, 
+        AI agents and automation templates to help the public and for my projects,
+        functioning and automated trading bots in production running from my RPi on the Solana and BASE blockchains, 
+        and numerous other data collection, processing, monitoring and alerting systems. 
       </p>
       {/*<p style={styles.paragraph}>
         Currently, I'm developing <span style={styles.highlight}>AI tools</span> for things such as sports analysis and
