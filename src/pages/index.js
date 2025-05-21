@@ -98,7 +98,8 @@ const IndexPage = () => {
             fontFamily: 'Courier New, Courier, monospace',
           }}
         >
-          Shoutout <a href="https://github.com/bchiang7/v4" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline' }}>github.com/bchiang7/v4</a> .. love the website design
+          {/*Shoutout <a href="https://github.com/bchiang7/v4" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'underline' }}>github.com/bchiang7/v4</a> .. love the website design*/}
+          Shoutout github.com/bchiang7/v4 .. love the website design
         </div>
       </div>
     </div>

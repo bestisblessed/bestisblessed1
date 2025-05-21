@@ -19,10 +19,11 @@ const styles = {
     fontWeight: '600'
   },
   title: {
-    fontSize: '24px',
+    fontSize: '22px',
     fontWeight: 'normal',
     margin: '0 0 20px 0',
-    color: '#e6f1ff'
+    color: '#e6f1ff',
+    fontStyle: 'italic'
   },
   subtitle: {
     fontSize: '18px',
@@ -69,9 +70,9 @@ const Header = () => {
   return (
     <header style={styles.header}>
       <h1 style={styles.name}>Tyler Durette</h1>
-      <h2 style={styles.title}>Software Engineer</h2>
+      <h2 style={styles.title}><span style={{fontStyle: 'normal'}}>Engineer</span>&nbsp;&nbsp;<span style={{fontSize: '15px', fontWeight: 'normal'}}>DevOps / Software / AI</span></h2>
       <p style={styles.subtitle}>
-        I build AI-powered applications and data analysis tools for sports, finance, and blockchain.
+        I do cool things with AI in sports and love data analysis, machine learning, automation, finance, and trading bots.
       </p>
 
       {/* Navigation */}
