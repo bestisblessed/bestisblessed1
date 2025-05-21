@@ -55,21 +55,24 @@ const About = () => {
     <section id="about" style={styles.section}>
       {/*<h2 style={styles.sectionHeading}>ABOUT</h2>*/}
       <p style={styles.paragraph}>
-        I'm a software engineer with over 5 years of professional experience.
-        My passions include building AI-powered applications and data analysis tools in various domains, 
-        particularly sports and finance.
+        I'm a software engineer with 5+ years of professional experience.
+        My passions include developing and experimenting with various AI workflows, processes, and architectures  
+        and building data analysis tools across various domains, particularly in sports and finance.
+      </p>
 
-        My portfolio includes multiple web applications for NFL, MLB, UFC/MMA analytics, predictive modeling systems, 
-        AI agents and automation templates, and various data processing pipelines and monitoring systems. 
+      <p style={styles.paragraph}>
+        My current portfolio includes multiple web applications for NFL, MLB, MMA analytics and predictive modeling systems, 
+        AI agents and automation templates, and numerous data collection, processing, monitoring, and analysis systems. 
         I also dabble in trading bots and algorithms.
       </p>
-      <p style={styles.paragraph}>
+      
+      {/*<p style={styles.paragraph}>
         Currently, I'm developing <span style={styles.highlight}>AI tools</span> for things such as sports analysis and
         creating <span style={styles.highlight}>trading algorithms</span> and bots for different financial markets. 
 
         I've developed and maintained CI/CD pipelines, containerized applications, and other complex data systems and infrastructure 
         throughout my professional career as well.
-      </p>
+      </p>*/}
 
       {/*<p style={styles.paragraph}>
         My expertise includes <span style={styles.highlight}>Python</span>, <span style={styles.highlight}>data science</span>,

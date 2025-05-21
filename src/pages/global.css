@@ -75,7 +75,7 @@ button, [role="button"], .interactive-element {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 0 50px;
 }
@@ -87,15 +87,15 @@ button, [role="button"], .interactive-element {
   position: sticky;
   top: 0;
   height: 100vh;
-  width: 45%;
+  width: 35%;
   margin-right: 5%;
 }
 
 .right-column {
   padding-top: 125px;
-  max-width: 55%;
-  width: 55%;
-  margin-left: 5%;
+  max-width: 65%;
+  width: 65%;
+  margin-left: 0;
 }
 
 @media (max-width: 1080px) {

@@ -1,5 +1,7 @@
 .projects-section {
   margin-bottom: 100px;
+  width: 100%;
+  max-width: 1600px;
 }
 
 .projects-heading {
@@ -11,25 +13,53 @@
 
 .project-item {
   display: block;
-  margin-bottom: 50px;
-  padding: 20px;
+  margin-bottom: 80px;
+  padding: 40px;
   border-radius: 12px;
   transition: all 0.3s ease;
   cursor: pointer;
   text-decoration: none;
   color: inherit;
   border: 1px solid transparent;
+  width: 100%;
 }
 
 .project-item:hover {
-  background-color: rgba(100, 255, 218, 0.02);
-  transform: translateY(-5px);
-  border: 1px solid rgba(100, 255, 218, 0.1);
-  box-shadow: 0 0 25px rgba(100, 255, 218, 0.05);
+  background-color: rgba(100, 255, 218, 0.03);
+  transform: translateY(-7px);
+  border: 1px solid rgba(100, 255, 218, 0.15);
+  box-shadow: 0 5px 30px rgba(100, 255, 218, 0.07);
+}
+
+.project-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+  width: 100%;
 }
 
 .project-content {
-  flex: 1;
+  flex: 1 !important;
+  order: 1;
+  min-width: 250px;
+}
+
+.project-image-container {
+  flex: 2 !important;
+  order: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Make every even project have image on the left */
+.project-item:nth-child(even) .project-content {
+  order: 2;
+}
+
+.project-item:nth-child(even) .project-image-container {
+  order: 1;
 }
 
 .project-title {
@@ -57,7 +87,8 @@
   color: #8892b0;
   font-size: 18px;
   line-height: 1.7;
-  max-width: 700px;
+  max-width: 100%;
+  margin-right: 20px;
 }
 
 .project-skills {
@@ -81,9 +112,63 @@
 
 /* Project image styling */
 .project-image {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
+  width: 100% !important;
+  max-width: 1000px !important;
+  height: auto !important;
   border-radius: 8px;
-  margin-bottom: 20px;
-} 
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.project-item:hover .project-image {
+  transform: scale(1.03);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1400px) {
+  .project-image {
+    max-width: 800px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .project-image {
+    max-width: 700px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .project-image {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-layout {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .project-content,
+  .project-image-container,
+  .project-item:nth-child(even) .project-content,
+  .project-item:nth-child(even) .project-image-container {
+    order: unset;
+    width: 100%;
+  }
+  
+  .project-image {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  
+  .project-image-container {
+    margin-bottom: 20px;
+    flex: 1;
+  }
+  
+  .project-item {
+    padding: 25px;
+    margin-bottom: 50px;
+  }
+}
