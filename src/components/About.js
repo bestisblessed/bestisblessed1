@@ -78,13 +78,11 @@ const About = () => {
         My passions include developing and experimenting with various AI workflows, processes, and architectures  
         and building data analysis tools across various domains, particularly in sports and finance.
       </p>
-
       <p style={styles.paragraph}>
         My current portfolio includes multiple web applications for NFL, MLB, MMA analytics and predictive modeling systems, 
         AI agents and automation templates, and numerous data collection, processing, monitoring, and analysis systems. 
         I also dabble in trading bots and algorithms.
       </p>
-      
       {/*<p style={styles.paragraph}>
         Currently, I'm developing <span style={styles.highlight}>AI tools</span> for things such as sports analysis and
         creating <span style={styles.highlight}>trading algorithms</span> and bots for different financial markets. 

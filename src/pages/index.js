@@ -47,7 +47,7 @@ const IndexPage = () => {
         <div
           style={{
             marginTop: 'auto',
-            paddingBottom: '50px',
+            paddingBottom: '30px',
             paddingTop: '55px',
             marginRight: '50px',
             fontSize: '1rem',

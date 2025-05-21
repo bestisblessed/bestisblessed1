@@ -29,7 +29,7 @@ const projectsData = [
 const Projects = () => {
   return (
     <section id="projects" className="projects-section">
-      <h2 className="projects-heading">PROJECTS</h2>
+      <h2 className="section-heading style10">PROJECTS</h2>
       
       {projectsData.map((project, index) => (
         <a 

@@ -19,7 +19,7 @@ const educationData = [
 const Education = () => {
   return (
     <section id="education" className="education-section">
-      <h2 className="education-heading">EDUCATION</h2>
+      <h2 className="section-heading style10">EDUCATION</h2>
       
       {educationData.map((edu, index) => (
         <div key={index} className="education-item">
