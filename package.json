@@ -1,0 +1,30 @@
+{
+  "name": "website-gatsby-vfinal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "website-gatsby-vfinal",
+  "author": "bestisblessed",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@parcel/watcher": "^2.5.1",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "framer-motion": "^12.11.3",
+    "gatsby": "^5.14.1",
+    "gatsby-adapter-netlify": "^1.2.0",
+    "gatsby-plugin-manifest": "^5.14.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0"
+  }
+}
