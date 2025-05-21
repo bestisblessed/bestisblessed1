@@ -35,7 +35,7 @@ const styles = {
   title: {
     fontSize: '22px',
     fontWeight: 'normal',
-    margin: '0 0 20px 0',
+    margin: '30px 0 30px 0',
     color: '#e6f1ff',
     fontStyle: 'italic'
   },
