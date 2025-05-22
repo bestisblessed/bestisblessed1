@@ -7,7 +7,7 @@ const styles = {
     display: 'flex',
     gap: '20px',
     marginTop: 'auto',
-    paddingBottom: '40px',
+    marginBottom: '0px',
     marginLeft: '50px'
   },
   socialIcon: {
