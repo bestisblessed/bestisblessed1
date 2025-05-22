@@ -1,0 +1,83 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+Ran tool
+
+Ran tool
+
+Ran tool
+
+Read file: src/pages/index.js
+
+Read file: src/components/Header.js
+
+Read file: src/components/Projects.js
+
+Read file: src/components/About.js
+
+Read file: src/components/Experience.js
+
+Read file: src/components/Education.js
+
+Read file: src/components/SocialLinks.js
+Here’s a clear overview of the website, its features, and structure, suitable for explaining to an assistant:
+
+---
+
+## Website Overview
+
+This website is a personal/professional portfolio for **Tyler Durette**, a software engineer specializing in AI, DevOps, automation, and data analysis, with a strong focus on sports analytics and trading algorithms.
+
+### Main Features
+
+- **Landing Page:** 
+  - Presents a profile image, name, and a brief professional tagline.
+  - Navigation links to sections: About, Experience, Projects, Education.
+  - Prominent download link for Tyler’s resume (PDF).
+
+- **About Section:** 
+  - Describes Tyler’s background, interests, and technical passions (AI, automation, data pipelines, sports analytics, trading bots, etc.).
+  - Emphasizes experience in building web apps, AI agents, trading bots, and data systems.
+
+- **Experience Section:** 
+  - Lists professional roles, currently as a DevOps Engineer at Booz Allen Hamilton and previously at Forterra.
+  - Each entry includes company, role, dates, and a short description.
+
+- **Projects Section:** 
+  - Showcases a variety of public projects, each with a title, description, tech stack, and image.
+  - Projects include AI-driven sports analytics apps (MMA, MLB, NFL), trading bots, odds monitoring tools, AI agent templates, and more.
+  - Each project links to a live demo or GitHub repository.
+
+- **Education Section:** 
+  - Details academic background: B.S. in Integrated Science and Technology from James Madison University, and high school achievements.
+
+- **Social Links:** 
+  - Footer with links to GitHub, LinkedIn, Email, Instagram, and Facebook.
+
+- **Theme Toggle:** 
+  - Option to switch between light/dark modes.
+
+- **Floating Resume Badge:** 
+  - Persistent, stylish button to download the resume from any page location.
+
+### Technical Structure
+
+- **Built with React** (using Gatsby for static site generation).
+- **Component-based architecture:** Each section (Header, About, Experience, Projects, Education, SocialLinks) is a separate React component.
+- **Styling:** Uses both CSS files and inline styles for layout and theming.
+- **Responsive and interactive UI:** Includes mouse-tracking effects, hover animations, and interactive elements.
+- **Assets:** Project and profile images are stored in the `src/images` directory.
+
+### Navigation & User Experience
+
+- **Single-page layout:** All main content is on the landing page, with smooth navigation via anchor links.
+- **Modern, clean design:** Inspired by popular developer portfolios (with a shoutout to bchiang7/v4).
+- **Accessibility:** Uses semantic HTML and ARIA labels for better accessibility.
+
+---
+
+**In summary:**  
+This is a modern, interactive portfolio site for a software engineer, highlighting AI, automation, and sports analytics projects, professional experience, and education, with easy access to social links and a downloadable resume. The codebase is cleanly organized with reusable React components and a focus on both aesthetics and functionality.

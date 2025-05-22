@@ -1,0 +1,37 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Overview and Key Components
+
+This project is a personal/professional portfolio for Tyler Durette, a software engineer specializing in AI, DevOps, automation, and data analysis, with a focus on sports analytics and trading algorithms.
+
+## Main Entry Point
+
+- The main entry point is [index.js](mdc:src/pages/index.js), which imports aajor sections of the site.
+
+## Key Components
+
+- [Header.js](mdc:src/components/Header.js): Displays the profile image, name, tagline, navigation links, and a resume button.
+- [About.js](mdc:src/compo.js): Contains a summary of professional background, interests, and technical focus.
+- [Experience.js](nents/Experience.js): Lists professional roles and experience.
+- [Projects.js](mdc:src/components/Projects.js): Showcases featured projects with descriptions, skills, and images.
+- [Education.js](mdc:src/components/Education.js): Details academic background and achievements.
+- [SocialLinks.js](mdc:src/components/SocialLinks.js): Provides links to social media and contact options.
+- [ThemeToggle.js](mdc:src/components/The: Allows users to switch between light and dark themes.
+
+## Styling
+
+- [global.css](mdc:src/pages/global.css): Main global stylesheet for layout, theming, and responsive design.
+- [Projects.css](mdc:src/components/Projects.css): Styles for the Projects section.
+- [Experiemdc:src/components/Experience.css): Styles for the Experience section.
+- [Education.css](mdc:src/components/Education.css): Styles for the Education section.
+
+es for projects and profile are stored in [src/images/](mdc:src/images/).
+
+## Additional Notes
+
+- The site uses a single-page layout with anchor navigation.
+- All main content is rendered on the landing page ([index.js](mdc:src/pages/index.js)).
+- The floating resume badge is implemented directly in [index.js](mdc:src/pages/index.j404 page is handled by [404.js](mdc:src/pages/404.js).
