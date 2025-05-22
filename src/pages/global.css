@@ -15,6 +15,7 @@ html {
   -webkit-zoom: 0.9;
   -moz-transform: scale(0.9);
   -moz-transform-origin: 0 0;
+  /*font-size: 90%;*/
 }
 
 body {
@@ -98,8 +99,8 @@ button, [role="button"], .interactive-element {
 
 .right-column {
   padding-top: 125px;
-  max-width: 55%; /* PAGE WIDTH */
-  width: 55%; /* PAGE WIDTH */
+  max-width: 45%; /* PAGE WIDTH */
+  width: 45%; /* PAGE WIDTH */
   margin-left: 0;
 }
 
@@ -425,4 +426,3 @@ a:hover::after,
   color: var(--link-color);
   border-color: var(--link-color);
 }
-
