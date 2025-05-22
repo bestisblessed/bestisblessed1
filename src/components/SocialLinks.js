@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaFacebook } from 'react-icons/fa'
+//FaYoutube
 
 const styles = {
   socialLinks: {
@@ -40,7 +41,8 @@ const socialLinks = [
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/tyler-durette-43b54317a/', icon: 'linkedin' },
   { name: 'Email', url: 'mailto:tyler.durette@gmail.com', icon: 'email' },
   { name: 'Instagram', url: 'https://www.instagram.com/tylerdurette1/#', icon: 'instagram' },
-  { name: 'YouTube', url: 'https://www.youtube.com/@drty6818', icon: 'youtube' }
+  { name: 'Facebook', url: 'https://www.facebook.com/tyler.durette', icon: 'facebook' },
+  // { name: 'YouTube', url: 'https://www.youtube.com/@drty6818', icon: 'youtube' }
 ]
 
 const SocialIcon = ({ name }) => {
@@ -64,7 +66,8 @@ const SocialIcon = ({ name }) => {
       {name === 'github' && <FaGithub />}
       {name === 'linkedin' && <FaLinkedin />}
       {name === 'instagram' && <FaInstagram />}
-      {name === 'youtube' && <FaYoutube />}
+      {name === 'facebook' && <FaFacebook />}
+      {/*{name === 'youtube' && <FaYoutube />}*/}
       {name === 'email' && <FaEnvelope />}
     </span>
   )
