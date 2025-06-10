@@ -114,6 +114,7 @@ export const Head = () => (
   <>
     <title>Tyler Durette | Software Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+    <script defer src="/_vercel/insights/script.js" />
   </>
 )
 
