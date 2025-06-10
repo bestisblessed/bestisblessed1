@@ -3,15 +3,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `MY WEBSITE`,
+    title: `website-gatsby-vfinal`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `MY WEBSITE`,
-        short_name: `MY WEBSITE`,
+        name: `bestisblessed`,
+        short_name: `bestisblessed`,
         start_url: `/`,
         background_color: `#0a192f`,
         theme_color: `#64ffda`,
