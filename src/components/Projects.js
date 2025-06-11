@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import mmaAiImage from '../images/mma-ai.png'
-import mmaAiSwiftImage from '../images/mma-ai-swift.png'
+import mmaAiSwiftImage from '../images/mma-ai-swift-final2.png'
 import oddsMonitoringImage from '../images/odds-monitoring.png'
 import theFightAgentImage from '../images/the-fight-agent.png'
 import mlbAiImage from '../images/mlb-ai.png'
