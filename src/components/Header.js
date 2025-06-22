@@ -121,11 +121,11 @@ const Header = () => {
         I do cool things with AI and sports
         <br />
         <span style={{ fontSize: '10px' }}>
-          ... <span style={{ color: '#90ee90', fontStyle: 'italic' }}>Love</span> python, data analysis, machine learning, automation, finance & trading algorithms
+          ... <span style={{ color: '#90ee90', fontStyle: 'italic' }}>Love</span>  python, data analysis, machine learning, automation, finance & trading algorithms
         </span>
         <br />
         <span style={{ fontSize: '10px' }}>
-          ... <span style={{ color: '#ffb3b3', fontStyle: 'italic' }}>Don't love</span> Windows
+          ... <span style={{ color: '#ffb3b3', fontStyle: 'italic' }}>Don't love</span>  Windows
         </span>
       </p>
 
