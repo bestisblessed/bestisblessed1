@@ -118,10 +118,11 @@ const Header = () => {
         <span style={{fontSize: '17px', fontWeight: 'normal'}}>AI / DevOps / Software </span>
       </h2>
       <p style={styles.subtitle}>
-        I do cool things with AI and sports... 
-        <span style={{color: '#90ee90', fontStyle: 'italic'}}> Love </span>
-        python, data analysis, machine learning, automation, finance & trading algorithms, MacOS, Linux..
-        <span style={{color: '#ffb3b3', fontStyle: 'italic'}}> Hate</span> Windows
+        I do cool things with AI and sports
+        <br />
+        ... <span style={{color: '#90ee90', fontStyle: 'italic'}}>Love</span> python, data analysis, machine learning, automation, finance & trading algorithms
+        <br />
+        ... <span style={{color: '#ffb3b3', fontStyle: 'italic'}}>Don't love</span> Windows
       </p>
 
       {/* Navigation */}
