@@ -1,0 +1,30 @@
+- Animated Typing Title: A dynamic typewriter effect that 'types' out your specialties (e.g. DevOps, Software, AI) one by one.
+- Dark↔Light Mode Toggle: A small switch that lets visitors flip between dark and light themes, persisting their choice.
+- Scroll-spy Navigation: As the user scrolls, the corresponding nav link is highlighted or underlined to show which section is in view.
+- Profile Avatar Interaction: Subtle 3D tilt or parallax shadow effect on your profile picture in response to cursor movement.
+- Sticky Social-Icon Bar: A vertical, edge-aligned bar of social icons that expands into full labels when hovered over.
+- Vertical Progress Bar: A thin line on the far left that fills from top to bottom indicating how far the user has scrolled.
+- Custom Web Font & Letter-spacing: Swap in a distinctive display font for your name with tailored letter-spacing and a light text-shadow.
+- Animated Underline on Hover: Underlines for each nav item draw from left to right on hover (using CSS transform/scaleX) and stay on the active link.
+- Background Accent Shape: A softly blurred radial gradient or abstract SVG shape behind your header block to visually separate it from the content.
+- Call-to-Action Button: A clear 'Let's Talk' or 'Download CV' button styled consistently with your resume badge.
+- SVG Logo Animation: An animated SVG version of your personal or brand logo that plays on load or hover.
+- Mouse-Triggered Parallax Effect: Slight, multi-layered parallax movement of background shapes as the cursor moves.
+- Theme Accent Color Picker: A small UI control that lets visitors choose the accent color used throughout the site.
+- Language Switcher Dropdown: A dropdown to switch the site's content into another language seamlessly.
+- Last Updated Timestamp: A small footer note showing when the page or content was last updated.
+- Real-time Weather Widget: Display the visitor's local weather conditions (icon + temperature) based on their IP or browser locale.
+- Audio Greeting on Hover: Play a brief spoken audio greeting when the user hovers over your avatar.
+- Inline Contact Form: A compact email/contact form embedded directly in the header for quick outreach.
+- Local Time Display: Show the current local time (digital clock) for your location or the visitor's locale.
+- Newsletter Signup Field: A simple email input with a subscribe button to join your newsletter. 
+- Skill Tags Cloud: Interactive cloud of technology/skill tags that reorganize on hover with related skills grouping together.
+- Reading Time Indicator: Shows estimated reading time for each section and total portfolio content.
+- GitHub Activity Graph: Mini visualization of your recent GitHub contributions embedded in the header.
+- Section Transition Effects: Subtle fade/slide animations as sections enter the viewport while scrolling.
+- AI Chat Assistant: A minimal chat widget that lets visitors ask questions about your experience and projects.
+- Code Snippet Showcase: Rotating display of actual code snippets from your featured projects with syntax highlighting.
+- Availability Status: Dynamic indicator showing your current availability for new opportunities or collaborations.
+- Interactive Timeline: Visual timeline of your experience that expands with details on hover/click.
+- Project Quick-Preview: Thumbnail previews that expand into modal galleries when clicked.
+- Skill Proficiency Bars: Animated skill level indicators that fill up as they enter the viewport. 
