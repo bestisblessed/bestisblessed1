@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 import profileImage from '../images/image.png'
 import ThemeToggle from './ThemeToggle'
+import { RESUME_URL } from '../config'
 
 const navLinks = [
   { name: 'ABOUT', url: '#about' },
@@ -156,10 +157,10 @@ const Header = () => {
 
       <div style={{ marginTop: '24px' }}>
         <a
-          href="/TylerDuretteResumeFinal.pdf"
-          target="_blank" 
+          href={RESUME_URL}
+          target="_blank"
           rel="noopener noreferrer"
-          style={styles.resumeButton}          
+          style={styles.resumeButton}
           className="resume-arrow-right interactive-element"
         >
           RESUME &nbsp;<FaArrowRight />

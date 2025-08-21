@@ -10,6 +10,7 @@ import Experience from '../components/Experience'
 import Education from '../components/Education'
 import Projects from '../components/Projects'
 import SocialLinks from '../components/SocialLinks'
+import { RESUME_URL } from '../config'
 
 // Floating resume badge styles
 const floatingResumeBadgeStyle = {
@@ -90,7 +91,7 @@ const IndexPage = () => {
 
       {/* Floating resume badge */}
       <a
-        href="/TylerDuretteResumeFinal.pdf"
+        href={RESUME_URL}
         download
         className="interactive-element"
         style={floatingResumeBadgeStyle}
