@@ -1,0 +1,42 @@
+<svg width="1574" height="1008" viewBox="0 0 1574 1008" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1574" height="1008" rx="28" fill="#F8F5F1"/>
+  <rect x="1" y="1" width="1572" height="1006" rx="27" stroke="#1F2937" stroke-opacity="0.12" stroke-width="2"/>
+  <rect x="46" y="48" width="1482" height="64" rx="30" fill="#FFFFFF" stroke="#E2DED8" stroke-width="2"/>
+  <circle cx="90" cy="80" r="11" fill="#FF5F57"/>
+  <circle cx="126" cy="80" r="11" fill="#FFBD2E"/>
+  <circle cx="162" cy="80" r="11" fill="#28C840"/>
+  <text x="787" y="88" fill="#34323A" font-family="Inter, Arial, sans-serif" font-size="20" text-anchor="middle">clawhub.ai/u/bestisblessed</text>
+  <rect x="70" y="154" width="1434" height="86" rx="16" fill="#FFFDFC" stroke="#E5DED6" stroke-width="2"/>
+  <text x="112" y="208" fill="#101010" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">ClawHub</text>
+  <rect x="264" y="176" width="824" height="42" rx="12" fill="#FFFFFF" stroke="#E5DED6"/>
+  <text x="302" y="205" fill="#8B8782" font-family="Inter, Arial, sans-serif" font-size="20">Search skills, plugins, users</text>
+  <rect x="1228" y="173" width="208" height="50" rx="8" fill="#FFF9F6" stroke="#FF6D5F"/>
+  <text x="1332" y="205" fill="#151515" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">GitHub</text>
+  <circle cx="118" cy="322" r="43" fill="#D8EDE9"/>
+  <text x="182" y="306" fill="#121212" font-family="Menlo, Consolas, monospace" font-size="32" font-weight="700">bestisblessed</text>
+  <text x="182" y="338" fill="#6D6964" font-family="Menlo, Consolas, monospace" font-size="20">@bestisblessed</text>
+  <text x="182" y="378" fill="#3D3935" font-family="Inter, Arial, sans-serif" font-size="20">4 published</text>
+  <text x="302" y="378" fill="#3D3935" font-family="Inter, Arial, sans-serif" font-size="20">18 stars</text>
+  <line x1="70" y1="432" x2="1504" y2="432" stroke="#E5DED6" stroke-width="2"/>
+  <text x="70" y="494" fill="#111111" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Published (4)</text>
+  <rect x="70" y="530" width="1434" height="112" rx="10" fill="#FFFDFC" stroke="#E5DED6"/>
+  <rect x="94" y="554" width="58" height="58" rx="12" fill="#DDF5FA" stroke="#B7E2EB"/>
+  <text x="178" y="582" fill="#161616" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Export</text>
+  <text x="178" y="612" fill="#66615C" font-family="Inter, Arial, sans-serif" font-size="18">Export a Codex session JSONL into a clean Markdown transcript.</text>
+  <text x="178" y="640" fill="#66615C" font-family="Inter, Arial, sans-serif" font-size="17">Updated 1w ago   1 star   163 downloads</text>
+  <rect x="70" y="642" width="1434" height="112" fill="#FFFDFC" stroke="#E5DED6"/>
+  <rect x="94" y="666" width="58" height="58" rx="12" fill="#FFF0E8" stroke="#F1CDBD"/>
+  <text x="178" y="694" fill="#161616" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Simplify Code</text>
+  <text x="178" y="724" fill="#66615C" font-family="Inter, Arial, sans-serif" font-size="18">Refactor code for clarity and maintainability without changing behavior.</text>
+  <text x="178" y="752" fill="#66615C" font-family="Inter, Arial, sans-serif" font-size="17">Updated 6d ago   2 stars   2k downloads</text>
+  <rect x="70" y="754" width="1434" height="112" fill="#FFFDFC" stroke="#E5DED6"/>
+  <rect x="94" y="778" width="58" height="58" rx="12" fill="#FFF0E8" stroke="#F1CDBD"/>
+  <text x="178" y="806" fill="#161616" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Clip</text>
+  <text x="178" y="836" fill="#66615C" font-family="Inter, Arial, sans-serif" font-size="18">Download and clip YouTube videos from start/end times.</text>
+  <text x="178" y="864" fill="#66615C" font-family="Inter, Arial, sans-serif" font-size="17">Updated 5h ago   1 star   855 downloads</text>
+  <rect x="70" y="866" width="1434" height="112" rx="0" fill="#FFFDFC" stroke="#E5DED6"/>
+  <rect x="94" y="890" width="58" height="58" rx="12" fill="#E0F8F0" stroke="#B7EAD9"/>
+  <text x="178" y="918" fill="#161616" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Youtube Download</text>
+  <text x="178" y="948" fill="#66615C" font-family="Inter, Arial, sans-serif" font-size="18">Download YouTube videos to ~/Downloads.</text>
+  <text x="178" y="976" fill="#66615C" font-family="Inter, Arial, sans-serif" font-size="17">Updated 6d ago   3 stars   1.1k downloads</text>
+</svg>

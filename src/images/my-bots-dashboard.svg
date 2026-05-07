@@ -1,0 +1,31 @@
+<svg width="1574" height="770" viewBox="0 35 1574 770" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1574" height="1008" rx="28" fill="#F4EDE5"/>
+  <rect x="1" y="1" width="1572" height="1006" rx="27" stroke="#1F2937" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="38" y="40" width="1498" height="56" rx="26" fill="#F9F7F4" stroke="#D9D0C7" stroke-width="2"/>
+  <circle cx="82" cy="68" r="11" fill="#FF5F57"/>
+  <circle cx="118" cy="68" r="11" fill="#FFBD2E"/>
+  <circle cx="154" cy="68" r="11" fill="#28C840"/>
+  <text x="787" y="75" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="18" text-anchor="middle">My Bots Dashboard</text>
+  <rect x="520" y="118" width="534" height="58" fill="#F8F1EA" stroke="#2B2930" stroke-width="3"/>
+  <rect x="526" y="124" width="522" height="46" fill="none" stroke="#2B2930" stroke-width="1.5"/>
+  <text x="787" y="154" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22" text-anchor="middle">My Bot Fleet Dashboard</text>
+  <text x="70" y="248" fill="#1477D4" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="700">SERVERS</text>
+  <text x="70" y="284" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">Name                 Platform   Status     Host                Uptime             Disk                 OS</text>
+  <text x="70" y="318" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">trinity              Linux      online     raspberrypi         up 10 min          81G free (28% used)  Debian GNU/Linux 12</text>
+  <text x="70" y="352" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">durrrrr              Linux      online     durrrrr             up 9 min           11G free (62% used)  Raspbian GNU/Linux 12</text>
+  <text x="70" y="386" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">donpablo (M1)        Mac        online     DonPabloMBP         up 16 mins         317Gi free (4% used) macOS 26.4.1</text>
+  <text x="70" y="420" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">morpheus (Intel)     Linux      online     MorpheusMacbook     up 7:53            24G free (61% used)  Ubuntu 24.04.4 LTS</text>
+  <text x="70" y="500" fill="#1477D4" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="700">CRON JOBS</text>
+  <text x="70" y="536" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">Server               Schedule          Job                                      Last Run   Status</text>
+  <text x="70" y="570" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">trinity              0 9 * * 1         MMA AI Swift News                        7h ago     healthy</text>
+  <text x="70" y="604" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">trinity              3-59/6 * * * *    My Copy Bot 1                            &lt;1m ago    healthy</text>
+  <text x="70" y="638" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">trinity              0 7 * * *         MLB Scraper                              3h ago     healthy</text>
+  <text x="70" y="672" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">trinity              15 7 * * *        MLB BVP Reports                          3h ago     healthy</text>
+  <text x="70" y="706" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">trinity              40 * * * *        UFC Whale Dashboard                      10m ago    healthy</text>
+  <text x="70" y="740" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">durrrrr              */15 * * * *      OpenAI Whale Bot                         5m ago     healthy</text>
+  <text x="70" y="820" fill="#1477D4" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="700">SERVICES</text>
+  <text x="70" y="856" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">Server               Service           Status</text>
+  <text x="70" y="890" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">trinity              nginx             active</text>
+  <text x="70" y="924" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">trinity              flaskapp          active</text>
+  <text x="70" y="958" fill="#2B2930" font-family="Menlo, Consolas, monospace" font-size="22">durrrrr              ssh               active</text>
+</svg>

@@ -128,6 +128,40 @@
   border-radius: 8px;
   transition: transform 0.3s ease;
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+  display: block;
+}
+
+.project-item[href*="menu-bar-quotes"] .project-image,
+.project-item[href*="polymarket-bots"] .project-image,
+.project-item[href*="my-bots-dashboard"] .project-image,
+.project-item[href*="clawhub.ai"] .project-image {
+  height: auto !important;
+  object-fit: contain;
+  object-position: center;
+  background: #f8f5f1;
+}
+
+.project-item[href*="menu-bar-quotes"] .project-layout,
+.project-item[href*="polymarket-bots"] .project-layout,
+.project-item[href*="my-bots-dashboard"] .project-layout,
+.project-item[href*="clawhub.ai"] .project-layout {
+  gap: 40px;
+}
+
+.project-item[href*="menu-bar-quotes"] .project-content,
+.project-item[href*="polymarket-bots"] .project-content,
+.project-item[href*="my-bots-dashboard"] .project-content,
+.project-item[href*="clawhub.ai"] .project-content {
+  flex: 1 1 38% !important;
+  min-width: 0;
+}
+
+.project-item[href*="menu-bar-quotes"] .project-image-container,
+.project-item[href*="polymarket-bots"] .project-image-container,
+.project-item[href*="my-bots-dashboard"] .project-image-container,
+.project-item[href*="clawhub.ai"] .project-image-container {
+  flex: 1.4 0 52% !important;
+  min-width: 300px;
 }
 
 /* Special handling for logo-style project images */
@@ -181,6 +215,20 @@
   .project-image {
     margin-bottom: 20px;
     max-width: 100%;
+  }
+
+  .project-item[href*="menu-bar-quotes"] .project-image,
+  .project-item[href*="polymarket-bots"] .project-image,
+  .project-item[href*="my-bots-dashboard"] .project-image,
+  .project-item[href*="clawhub.ai"] .project-image {
+    height: auto !important;
+  }
+
+  .project-item[href*="menu-bar-quotes"] .project-image-container,
+  .project-item[href*="polymarket-bots"] .project-image-container,
+  .project-item[href*="my-bots-dashboard"] .project-image-container,
+  .project-item[href*="clawhub.ai"] .project-image-container {
+    min-width: 0;
   }
   
   .project-image-container {
